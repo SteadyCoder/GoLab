@@ -28,7 +28,8 @@ func readLine(path string) string {
 }
 
 func main() {
-	//p := profile.Start(profile.CPUProfile, profile.ProfilePath("."), profile.NoShutdownHook)
+
+
 
 	runtime.GOMAXPROCS(1)
 	var wg sync.WaitGroup
