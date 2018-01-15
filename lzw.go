@@ -36,7 +36,7 @@ func main() {
 
 	fmt.Print("Input file length:\"")
 
-	testStr := readLine("testReadHard")
+	testStr := readLine("testReadEasy")
 	fmt.Print(len(testStr))
 	fmt.Println("\"")
 	testStrLen := len(testStr)
