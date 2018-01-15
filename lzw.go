@@ -29,14 +29,14 @@ func readLine(path string) string {
 
 func main() {
 
-	runtime.GOMAXPROCS(2)
+	runtime.GOMAXPROCS(1)
 	var wg sync.WaitGroup
 
 	wg.Add(2)
 
 	fmt.Print("Input file length:\"")
 
-	testStr := readLine("testReadEasy")
+	testStr := readLine("testReadHard")
 	fmt.Print(len(testStr))
 	fmt.Println("\"")
 	testStrLen := len(testStr)
